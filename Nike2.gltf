@@ -1,0 +1,226 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 104955,
+      "max": [
+        0.04676374435424805,
+        0.12491999626159668,
+        0.1324886226654053
+      ],
+      "min": [
+        -0.046936259269714356,
+        -8.000247180462003e-05,
+        -0.13251131057739257
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 104955,
+      "name": "UVChannel_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 104955,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5125,
+      "type": "SCALAR",
+      "count": 590619,
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5125,
+      "type": "SCALAR",
+      "count": 3210,
+      "bufferView": 4,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5125,
+      "type": "SCALAR",
+      "count": 3744,
+      "bufferView": 5,
+      "byteOffset": 0
+    }
+  ],
+  "asset": {
+    "copyright": "2023 (c) Amazon.com, Inc.",
+    "generator": "encglb version cc969133d5d3a6c36f653b2ec8a84ccddd794388 (post-processed with splitglb)",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1259460,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 839640,
+      "byteOffset": 1259460
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1259460,
+      "byteOffset": 2099100
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2362476,
+      "byteOffset": 3358560
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12840,
+      "byteOffset": 5721036
+    },
+    {
+      "buffer": 0,
+      "byteLength": 14976,
+      "byteOffset": 5733876
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 5748852,
+      "uri": "ASSET.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "FB_ngon_encoding"
+  ],
+  "images": [
+    {
+      "uri": "normalTexture0.png"
+    },
+    {
+      "uri": "occlusionTexture1.png"
+    },
+    {
+      "uri": "baseColorTexture2.png"
+    }
+  ],
+  "materials": [
+    {
+      "extensions": {},
+      "name": "ASSET_MAT_MR",
+      "normalTexture": {
+        "index": 0
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "extensions": {},
+      "name": "ASSET_MAT_MR",
+      "normalTexture": {
+        "index": 0
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "alphaMode": "BLEND"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "mesh_49",
+      "primitives": [
+        {
+          "material": 0,
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 0,
+            "TEXCOORD_0": 1
+          },
+          "indices": 3
+        },
+        {
+          "material": 1,
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 0,
+            "TEXCOORD_0": 1
+          },
+          "indices": 4
+        },
+        {
+          "material": 1,
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 0,
+            "TEXCOORD_0": 1
+          },
+          "indices": 5
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode"
+    },
+    {
+      "mesh": 0,
+      "name": "ASSET"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
